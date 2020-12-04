@@ -2,8 +2,7 @@
 var express = require("express")
 var app = express()
 var PORT = process.env.PORT || 3000; // port od heroku
-
-let Check = false
+let Check = false;
 var path = require("path")
 var bodyParser = require("body-parser");
 const { Cipher } = require("crypto");
