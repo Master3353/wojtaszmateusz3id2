@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "name": "wojtaszprojekt",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server01.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Master3353/wojtaszmateusz3id2.git"
+  },
+  "author": "wojtaszmateusz3id2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Master3353/wojtaszmateusz3id2/issues"
+  },
+  "homepage": "https://github.com/Master3353/wojtaszmateusz3id2#readme"
 }
