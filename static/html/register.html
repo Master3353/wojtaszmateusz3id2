@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/register.css">
+
+</head>
+
+<body>
+    <div id="nav">
+        <p><a href="/">main</a></p>
+        <p><a href="/login">login</a></p>
+        <p><a href="/register">register</a></p>
+        <p><a href="/admin">admin</a></p>
+    </div>
+    <div id="text">
+        <h1>Register Page</h1>
+    </div>
+    <div id="form">
+        <form action="/register" method="POST">
+            <p>login:</p><input type="text" name="login"></br>
+            <p>password:</p><input type="password" name="password"></br>
+            <p>wiek:</p>
+            <select name="wiek">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+            </select></br>
+            <p>uczeń?:</p><input id="checkbox" type="checkbox" name="checkbox"></br>
+            <p>płeć:</p><input type="radio" id="male" name="plec" value="K" required>
+            <p class="gender">K</p><input type="radio" id="male" name="plec" value="M" required>
+            <p class="gender">M</p></br>
+            <button type="submit">Potwierdź</button>
+        </form>
+    </div>
+</body>
+
+</html>
